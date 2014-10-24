@@ -7,6 +7,6 @@ Scehdule the script to run at a specified interval (here, once a minute) if desi
 
 pi$ sudo crontab -e
 
-then add: * * * * * /home/pi/camera.py 2>&1
+then add: * * * * * /home/pi/picam/camera.py 2>&1
 
 save and exit.
